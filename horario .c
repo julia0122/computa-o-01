@@ -15,9 +15,9 @@ int main()
 
     else{
         float m= ((hora*60) + min + (seg/(60.0)));
-                  printf("Quantidade de minutos: %.2f/n",m);
+                  printf("Quantidade de minutos: %0.2f/n",m);
     }
                   printf ("Horario: %02d: %02d: %02d\n", hora, min, seg);
-                  printf("Float com duas casas: %.2f", aux);
+                  printf("Float com duas casas: %0.2f", aux);
                   return 0;
     }
