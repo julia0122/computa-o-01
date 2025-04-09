@@ -15,14 +15,17 @@ int main()
     if (media>8 && frequencia>=75%%){
         printf("Aprovado com Distinção, pois teve media %.2f e frequencia %d%", media, frequencia);
 }
-    else if(media>= 6 && frequencia >=75%%){
-        printf ("Aprovado Direto, pois tece media %.2f e frequencia %d%", media, frequencia);
+    else if(media>= 6 && frequencia >=75%){
+        printf ("Aprovado Direto, pois teve media %.2f e frequencia %d%", media, frequencia);
 }
-    else if(media>=4 && || media<6 && frequencia>=75%%){
-        printf ("Vai para final, pois teve media %.2 e frequencia %d%", media, frequencia);
+    else if(media<6 && frequencia>=75%){
+        printf ("Vai para final, pois teve media %.2f e frequencia %d%", media, frequencia);
+}
+    else if(media>=4 && frequencia<75%){
+        printf ("Vai para final, pois teve media %.2f e frequencia %d%", media, frequencia);
 }
     else (Demais casos){
-        printf("Reprovado direto, pois teve media %.2 e frequencia %d%", media, frequencia);
+        printf("Reprovado direto, pois teve media %.2f e frequencia %d%", media, frequencia);
 }
 
     return 0;
