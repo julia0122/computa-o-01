@@ -1,20 +1,26 @@
 #include<stdio.h>
 int main()
 {
-    float a, g, ra, rg, Na, Ng;
+      float n1, n2, n3, media;
+ int frequencia;
+ printf("Digite as tres notas:");
+    scanf("%f %f %f", &n1, &n2, &n3);
+    if (media > 8 && frequencia >=75){
+        printf("Aprovado com Distinção, pois teve media %.2f e frequencia %d%", media, frequencia);
+}
+    else if(media>= 6 && frequencia >=75){
+        printf ("Aprovado Direto, pois teve media %.2f e frequencia %d%", media, frequencia);
+}
+    else if(media<6 && frequencia>=75){
+        printf ("Vai para final, pois teve media %.2f e frequencia %d%", media, frequencia);
+}
+    else if(media>=4 && frequencia<75){
+        printf ("Vai para final, pois teve media %.2f e frequencia %d%", media, frequencia);
 
-    printf("Digite o valor do preço do alcool, preço da gasolina, Km/l do alcool, Km/l da gasolina:");
-    scanf("%f %f %f %f", &a, &g, &ra, &rg);
-    Na = (ra/a);
-    Ng = (rg/g);
+}
 
-    if (Ng>=Na)
-    {
-        printf("Rendimento de km/l da gasolina maior ou igual ao alcool %f %f", Na, Ng);
-    }
-    else
-    {
-        printf("Rendimento de km/l do alcool maior que a gasolina %f %f", Na, Ng);
-    }
-    return 0;
+    else if (media<4 && frequencia <50){
+        printf("Reprovado direto, pois teve media %.2f e frequencia %d%", media, frequencia);
+}
+ return 0;
 }
