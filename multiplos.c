@@ -23,5 +23,5 @@ int main()
         {
             soma+=i;
         }
-    {
+    }
 }
