@@ -1,8 +1,7 @@
 #include<stdio.h>
 
 int main(){
-float base, altura;
-float perimetro, perimetro_rodape, area;
+float base, altura, perimetro, perimetro_rodape, area;
 const float largura_porta=0.8;
 
 printf("base(em metros): ");
