@@ -2,7 +2,7 @@
 int main()
 {
     float distancia, minutos, segundos;
-    int tempo_total_segundos, ritmo_segunods, ritmo_minutos, ritmo_segundos_finais;
+    int tempo_total_segundos, ritmo_segundos, ritmo_minutos, ritmo_segundos_finais;
 
     printf("Digite a distancia percorrida em km: ");
     scanf("%d", &distancia);
