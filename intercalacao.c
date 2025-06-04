@@ -34,7 +34,7 @@ void intercalar_palavras(char palavras1[MAX_PALAVRAS][MAX_TAMANHO], int q1,
             j++;
         }
     }
-    resultado[strlen(resultado) - 1] = '\0'; // Remover espaço extra no final
+    resultado[strlen(resultado) - 1] = '\0';
 }
 
 int main() {
