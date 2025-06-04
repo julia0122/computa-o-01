@@ -2,12 +2,12 @@
 #include <string.h>
 
 void contar_vogais(const char *frase) {
-    int contagem[5] = {0}; // a, e, i, o, u
+    int contagem[5] = {0};
     char vogais[] = "aeiou";
 
     for (int i = 0; frase[i] != '\0'; i++) {
         char c = frase[i];
-        c = tolower(c); // Convertendo para minúsculas
+        c = tolower(c);
         switch (c) {
             case 'a': contagem[0]++; break;
             case 'e': contagem[1]++; break;
@@ -32,7 +32,6 @@ int main() {
     printf("Digite uma frase: ");
     fgets(frase, sizeof(frase), stdin);
     
-    // Removendo a quebra de linha
     frase[strcspn(frase, "\n")] = '\0';
 
     contar_vogais(frase);
